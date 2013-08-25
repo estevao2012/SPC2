@@ -18,7 +18,7 @@ int main(){
     string nada;
 
     while(repeticoes > 0){    
-        cin >> palavras;
+        cin >> palavras ;
         cin >> linhas_musica;
         
         japones = new string[palavras];
@@ -41,8 +41,7 @@ int main(){
             traduzido = str_replace(japones[j],traducao[j],traduzido);
           
           cout << traduzido << endl;
-        }
-          cout << endl;
+        } 
 
         repeticoes--; 
     } 
